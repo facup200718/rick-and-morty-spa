@@ -1,4 +1,4 @@
-const HOME = () => { //Template base de cada personaje
+const home = () => { //Template base de cada personaje
     const VIEW = `
         <div id="characters">
             <article id="character-item">
@@ -12,4 +12,4 @@ const HOME = () => { //Template base de cada personaje
     return VIEW
 }
 
-export default HOME; //Lo exportamos para verificar que se pueda usar dentro de otros archivos de js
+export default home; //Lo exportamos para verificar que se pueda usar dentro de otros archivos de js
