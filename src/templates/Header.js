@@ -2,7 +2,7 @@ const header = () => {
     const VIEW = `
         <div id="header-main">
             <div>
-                <a href="/rick-and-morty-spa/" id="header-logo">
+                <a href="/rick-and-morty-spa" id="header-logo">
                     Rick and Morty SPA
                 </a>
             </div>   
