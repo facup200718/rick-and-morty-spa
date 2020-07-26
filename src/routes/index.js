@@ -1,14 +1,13 @@
-import header from "../templates/header.js"
-import home from "../pages/home.js"
-import character from "../pages/character.js"
-import error404 from "../pages/error404.js"
-import getHash from "../utils/getHash.js"
-import resolveRoutes from "../utils/resolveRoutes.js"
+import header from '../templates/header.js';
+import home from '../pages/home.js';
+import character from '../pages/character.js';
+import error404 from '../pages/error404.js';
+import getHash from '../utils/getHash.js';
+import resolveRoutes from '../utils/resolveRoutes.js';
 
 const ROUTES = {
     '/': home,
-    '/:id': character,
-    '/contact': 'Contact',
+    '/:id': character
 }
 
 const router = async () => {
