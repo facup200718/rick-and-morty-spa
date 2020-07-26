@@ -12,12 +12,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
-#header-nav a {
+#header-logo, #header-nav{
   text-decoration: none;
   color: #15302C;
-  font-size: 20px;
+
+}
+
+#header-logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#header-nav{
+    font-size: 15px;
+    font-weight: 400;
 }
 
 #main {
