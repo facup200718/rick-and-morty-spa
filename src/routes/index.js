@@ -1,9 +1,9 @@
-import header from "../templates/header"
-import home from "../pages/home"
-import character from "../pages/character"
-import error404 from "../pages/error404"
-import getHash from "../utils/getHash"
-import resolveRoutes from "../utils/resolveRoutes"
+import header from "../templates/header.js"
+import home from "../pages/home.js"
+import character from "../pages/character.js"
+import error404 from "../pages/error404.js"
+import getHash from "../utils/getHash.js"
+import resolveRoutes from "../utils/resolveRoutes.js"
 
 const ROUTES = {
     '/': home,
