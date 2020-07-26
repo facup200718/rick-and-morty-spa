@@ -1,13 +1,13 @@
 const header = () => {
     const VIEW = `
         <div id="header-main">
-            <div id="header-logo">
-                <a href="/">
+            <div>
+                <a href="/" id="header-logo">
                     Rick and Morty SPA
                 </a>
             </div>   
-            <div id="header-nav">
-                <a href="#/about/">
+            <div>
+                <a href="#/about/" id="header-nav">
                     About
                 </a>
             </div>

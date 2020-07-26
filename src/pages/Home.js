@@ -3,7 +3,7 @@ import getData from "../utils/getData"
 const home = async () => { 
     const CHARACTERS = await getData()
     const VIEW = ` 
-        <div id="characters">
+        <div id="character">
             ${CHARACTERS.results.map(character => `
                  <article id="character-item">
                     <a href="#/${character.id}/">
