@@ -1,15 +1,20 @@
-const home = () => { //Template base de cada personaje
-    const VIEW = `
+import getData from "../utils/getData"
+
+const home = async () => { 
+    const CHARACTERS = await getData()
+    const VIEW = ` 
         <div id="characters">
-            <article id="character-item">
-                <a href="#/1/">
-                    <img src="image" alt="name">
-                    <h2>Name</h2>
-                </a>
-            </article>
+            ${CHARACTERS.results.map(character => `
+                 <article id="character-item">
+                    <a href="#/${character.id}/">
+                        <img src="${character.image}" alt="${character.name}">
+                        <h2>${character.name}</h2>
+                    </a>
+                </article>
+            `).join('')}
         </div>
-    ` 
+    `
     return VIEW
 }
 
-export default home; //Lo exportamos para verificar que se pueda usar dentro de otros archivos de js
+export default home; 
