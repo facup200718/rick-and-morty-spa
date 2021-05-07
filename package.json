@@ -24,6 +24,6 @@
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-runtime": "^6.26.0",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   }
 }
